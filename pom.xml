@@ -11,7 +11,6 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<mule.version>3.8.4</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
     	<activemq.version>5.15.2</activemq.version>
@@ -154,19 +153,19 @@
 		    <groupId>org.apache.activemq</groupId>
 		    <artifactId>activemq-client</artifactId>
 		    <version>${activemq.version}</version>
-		    <scope>provided</scope>
+		    <scope>compile</scope>
 		</dependency>
 		<dependency>
 		    <groupId>org.apache.activemq</groupId>
 		    <artifactId>activemq-broker</artifactId>
 		    <version>${activemq.version}</version>
-		    <scope>provided</scope>
+		    <scope>compile</scope>
 		</dependency>
 		<dependency>
 		    <groupId>org.apache.activemq</groupId>
 		    <artifactId>activemq-kahadb-store</artifactId>
 		    <version>${activemq.version}</version>
-		    <scope>provided</scope>
+		    <scope>compile</scope>
 		</dependency>
    		<dependency>
             <groupId>org.mule.transports</groupId>
