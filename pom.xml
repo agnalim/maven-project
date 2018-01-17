@@ -15,8 +15,8 @@
 		<mule.version>3.8.4</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
     	<activemq.version>5.15.2</activemq.version>
-        <username>${uid}</username>
-        <password>${pwd}</password>
+        <username>darceeit</username>
+        <password>Rojoapo8778</password>
 	</properties>
 
 	<build>
